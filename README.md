@@ -23,7 +23,7 @@ func Letras(s string) *set.Set[string]
 func EliminarRepetidos[T comparable](arreglo []T) []T
 ```
 
- 3. Escribir una función que reciba dos conjuntos A y B y devuelva la diferencia simétrica entre ambos.
+ 3. Escribir una función que reciba dos conjuntos A y B y devuelva la diferencia simétrica entre ambos.[OK]
 
 > La diferencia simétrica es el conjunto de elementos que solo pertenecen a A o a B pero no a ambos a la vez.
 
