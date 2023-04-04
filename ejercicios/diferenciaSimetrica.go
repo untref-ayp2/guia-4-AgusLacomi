@@ -7,13 +7,5 @@ import (
 // By AgusLacomi Punto 3
 func DiferenciaSimetrica[T comparable](s1, s2 *set.Set[T]) *set.Set[T] {
 
-	s3 := set.NewSet[T]()
-
-	for _, elemento := range s1.Values() {
-		if s1.Contains(elemento) {
-			s3.Add(elemento)
-		}
-	}
-
-	return s3
+	return set.Union(set.Difference(s1, s2), set.Difference(s2, s1))
 }
