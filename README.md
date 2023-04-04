@@ -9,7 +9,7 @@ La carpeta `/tests` contiene los tests unitarios de conjunto y los tests de los 
 
 Completar los ejercicios en el archivo ejercicios.go
 
-1. Escribir una función que reciba una cadena y devuelva el conjunto de todas las letras de la cadena:
+1. Escribir una función que reciba una cadena y devuelva el conjunto de todas las letras de la cadena: [OK]
 
 ```go
 func Letras(s string) *set.Set[string]
