@@ -31,7 +31,7 @@ func EliminarRepetidos[T comparable](arreglo []T) []T
 func DiferenciaSimetrica[T comparable](s1, s2 *set.Set[T]) *set.Set[T]
 ```
 
-4. Escribir una función que reciba una cantidad variables de conjuntos de elementos comparables y devuelva la intersección de todos ellos.
+4. Escribir una función que reciba una cantidad variables de conjuntos de elementos comparables y devuelva la intersección de todos ellos. [OK]
 
 ```go
 func Interseccion[T comparable](conjuntos ...*set.Set[T]) *set.Set[T] 
