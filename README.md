@@ -37,7 +37,7 @@ func DiferenciaSimetrica[T comparable](s1, s2 *set.Set[T]) *set.Set[T]
 func Interseccion[T comparable](conjuntos ...*set.Set[T]) *set.Set[T] 
 ```
 
-5. Agregar casos de tests para probar las siguientes propiedades de la diferencia simétrica de conjuntos (Δ) (`/tests/ejercicios_tests/DiferenciaSimetrica_test.go`)
+5. Agregar casos de tests para probar las siguientes propiedades de la diferencia simétrica de conjuntos (Δ) (`/tests/ejercicios_tests/DiferenciaSimetrica_test.go`) [OK]
 
     - Nilpotencia: A Δ A = ∅
     - Asociativa: (A Δ B) Δ C = A Δ (B Δ C)
